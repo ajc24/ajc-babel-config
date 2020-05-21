@@ -1,0 +1,25 @@
+{
+  "name": "ajc-babel-config",
+  "version": "1.0.0",
+  "description": "Easy to import and re-use Babel configuration for React projects.",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "babel src --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajc24/ajc-babel-config.git"
+  },
+  "author": "Anthony Cox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajc24/ajc-babel-config/issues"
+  },
+  "homepage": "https://github.com/ajc24/ajc-babel-config#readme",
+  "dependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4"
+  }
+}
