@@ -2,6 +2,8 @@ import configureBabel from '../../src/babel-config';
 
 describe('Babel Configuration Module', () => {
   const expectedBabelPlugins = [
+    '@babel/plugin-proposal-class-properties',
+    '@babel/plugin-syntax-dynamic-import',
     '@babel/plugin-transform-arrow-functions'
   ];
   const expectedBabelPresets = [
@@ -68,8 +70,16 @@ describe('Babel Configuration Module', () => {
       expect(babelConfig.plugins.length).toBe(expectedBabelPlugins.length);
     });
 
-    it('verifies that the arrow functions transform plugin is set to the list of plugins in the babel configuration', () => {
+    it('verifies that the proposal class properties plugin is set to the list of plugins in the babel configuration', () => {
       expect(babelConfig.plugins[0]).toBe(expectedBabelPlugins[0]);
+    });
+
+    it('verifies that the dynamic import plugin is set to the list of plugins in the babel configuration', () => {
+      expect(babelConfig.plugins[1]).toBe(expectedBabelPlugins[1]);
+    });
+
+    it('verifies that the arrow functions transform plugin is set to the list of plugins in the babel configuration', () => {
+      expect(babelConfig.plugins[2]).toBe(expectedBabelPlugins[2]);
     });
   });
 });
