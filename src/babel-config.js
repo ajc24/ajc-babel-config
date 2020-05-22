@@ -21,6 +21,7 @@ const configureBabel = (api) => {
 
   const plugins = [
     '@babel/plugin-proposal-class-properties',
+    '@babel/plugin-syntax-dynamic-import',
     '@babel/plugin-transform-arrow-functions'
   ];
 
