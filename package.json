@@ -28,9 +28,7 @@
     "@babel/preset-react": "^7.9.4"
   },
   "devDependencies": {
-    "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.2",
-    "jest": "^26.0.1",
+    "ajc-jest-enzyme": "github:ajc24/ajc-jest-enzyme",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
