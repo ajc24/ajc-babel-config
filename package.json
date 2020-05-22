@@ -4,7 +4,9 @@
   "description": "Easy to import and re-use Babel configuration for React projects.",
   "main": "build/index.js",
   "scripts": {
-    "build": "babel src --out-dir build"
+    "build": "babel src --out-dir build",
+    "test-unit": "jest --config=./tests/jest-config/unit.config.js",
+    "test-unit-coverage": "npm run test-unit -- --collectCoverage"
   },
   "repository": {
     "type": "git",
@@ -19,7 +21,15 @@
   "dependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.6",
+    "@babel/polyfill": "^7.8.7",
     "@babel/preset-env": "^7.9.6",
     "@babel/preset-react": "^7.9.4"
+  },
+  "devDependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "jest": "^26.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }
