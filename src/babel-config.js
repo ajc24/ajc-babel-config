@@ -20,6 +20,7 @@ const configureBabel = (api) => {
   ];
 
   const plugins = [
+    '@babel/plugin-proposal-class-properties',
     '@babel/plugin-transform-arrow-functions'
   ];
 
