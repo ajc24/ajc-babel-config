@@ -20,17 +20,17 @@
   },
   "homepage": "https://github.com/ajc24/ajc-babel-config#readme",
   "dependencies": {
-    "@babel/cli": "^7.13.10",
-    "@babel/core": "^7.13.10",
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.15",
     "@babel/plugin-proposal-class-properties": "^7.13.0",
     "@babel/plugin-syntax-dynamic-import": "^7.8.3",
     "@babel/polyfill": "^7.12.1",
-    "@babel/preset-env": "^7.13.10",
-    "@babel/preset-react": "^7.12.13"
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-react": "^7.13.13"
   },
   "devDependencies": {
     "ajc-jest-enzyme": "github:ajc24/ajc-jest-enzyme",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
