@@ -1,7 +1,7 @@
 # ajc-babel-config
 Work in progress (21/05/2020)
 
-An easy to import and use `babel` configuration module designed for use with ReactJs applications.
+An easy to import and use [`babel`](https://babeljs.io/docs/en/) configuration module designed for use with ReactJs applications.
 
 ## Installation
 
