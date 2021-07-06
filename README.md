@@ -1,9 +1,9 @@
 # ajc-babel-config
-Work in progress (21/05/2020)
+Work in progress (06/07/2021)
 
 An easy to import and use [`babel`](https://babeljs.io/docs/en/) configuration module designed for use with ReactJs applications.
 
-## Installation
+# Installation
 
 Add the following entry to the `dependencies` or `devDependencies` section of your projects `package.json` file:
 
@@ -13,7 +13,7 @@ Add the following entry to the `dependencies` or `devDependencies` section of yo
 
 ---
 
-## Adding the Babel Configuration File
+# Add the Babel Configuration File
 
 Create a `babel.config.js` file at the root of your project workspace.
 
