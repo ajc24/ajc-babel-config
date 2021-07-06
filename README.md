@@ -15,7 +15,7 @@ Add the following entry to the `dependencies` or `devDependencies` section of yo
 
 # Add the Babel Configuration File
 
-Create a `babel.config.js` file at the root of your project workspace.
+Create a `babel.config.js` file at the root of your project workspace so that a file exists with the path `<rootDir>/babel.config.js`.
 
 Add the following content to the file:
 
